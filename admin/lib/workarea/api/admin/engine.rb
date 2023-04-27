@@ -1,3 +1,5 @@
+require_relative '../../../../app/models/workarea/api/admin/date_filtering'
+
 module Workarea
   module Api
     module Admin
