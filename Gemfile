@@ -17,5 +17,7 @@ gemspec
 gem 'workarea-api-admin', path: 'admin'
 # gem 'workarea-api-storefront', path: 'storefront'
 
-gem 'workarea', git: 'https://github.com/workarea-commerce/workarea.git', branch: 'master'
-gem 'rails-decorators', git: 'https://github.com/workarea-commerce/rails-decorators.git', branch: 'master'
+# gem 'workarea', git: 'https://github.com/workarea-commerce/workarea.git', branch: 'master'
+gem 'workarea', git: 'https://github.com/associatedpackaging/workarea.git', branch: 'upgrade-rails-6.1'
+gem 'rails-decorators', git: 'https://github.com/associatedpackaging/rails-decorators.git', branch: 'rails-6.1-no-zeitwerk'
+# gem 'rails-decorators', git: 'https://github.com/workarea-commerce/rails-decorators.git', branch: 'rails-6.1-no-zeitwerk'
