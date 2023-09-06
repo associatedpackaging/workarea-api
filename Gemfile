@@ -15,7 +15,7 @@ gemspec
 
 
 gem 'workarea-api-admin', path: 'admin'
-gem 'workarea-api-storefront', path: 'storefront'
+# gem 'workarea-api-storefront', path: 'storefront'
 
 gem 'workarea', git: 'https://github.com/workarea-commerce/workarea.git', branch: 'master'
 gem 'rails-decorators', git: 'https://github.com/workarea-commerce/rails-decorators.git', branch: 'master'

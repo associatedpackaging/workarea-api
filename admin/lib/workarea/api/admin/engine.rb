@@ -17,7 +17,6 @@ module Workarea
         end
 
         config.to_prepare do
-          raise "GOT HERE"
           ApplicationDocument.include(DateFiltering)
         end
       end
