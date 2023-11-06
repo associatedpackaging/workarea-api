@@ -116,7 +116,7 @@ module Workarea
         def find_email_signup
           @email_signup = Email::Signup.find(params[:id])
         rescue Mongoid::Errors::DocumentNotFound
-          @email_signup = Email::Signup.find_by(email: URI.unescape(params[:id]))
+          @email_signup = Email::Signup.find_by(email: CGI.unescape(params[:id]))
         end
       end
     end

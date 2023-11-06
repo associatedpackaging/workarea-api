@@ -298,7 +298,7 @@ module Workarea
         def find_user
           @user = User.find(params[:id])
         rescue Mongoid::Errors::DocumentNotFound
-          @user = User.find_by(email:  URI.unescape(params[:id]))
+          @user = User.find_by(email:  CGI.unescape(params[:id]))
         end
 
         def api_attributes_for(user)
